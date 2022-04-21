@@ -4,13 +4,13 @@
 
 |FOLDER|DESCRIPTION|
 | --------------- | --------------- |
-|0_Abstract|Contains all the certificates of learning|
-|1_Requirements|Contains Details of requirements|
-|2_Design|Contains Readme file specifying architecture and detail|
-|3_Implementation|Project code (source code and testing) |
+|0_Abstract|Contains brief explanantion of the project|
+|1_Requirements|Contains Details of High level and low level requirements|
+|2_Design|Contains designs like Block diagram,State transition diagram,Data flow diagram,Flow Charts,Schematic etc|
+|3_Implementation|Contains Project Source Code,Documentation,Simulation etc|
 |4_TestCases|Test plans and procedures|
 |5_Report|Overall details of project|
-|6_Output|Output images and Explanation Videos|
+|6_Output|Output images, Explanation Videos,.hex file and simulation|
 
 
 # BADGES
