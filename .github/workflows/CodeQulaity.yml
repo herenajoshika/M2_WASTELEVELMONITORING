@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: get_cppcheck
       run: sudo apt-get install cppcheck
-    - name: Code Quality
-      run: make analysis
+    - name: Run cppcheck
+      run: cppcheck 3_Implementation
