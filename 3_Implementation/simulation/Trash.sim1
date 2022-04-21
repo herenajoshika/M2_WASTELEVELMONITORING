@@ -1,0 +1,61 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="AudioOut" CircId="AudioOut-1" mainComp="false" Show_id="false" Show_Val="false" Pos="508,644" rotation="-180" hflip="1" vflip="1" label="AudioOut-1" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="inf Ω" />
+
+<item itemtype="MCU" CircId="mega328-2" mainComp="false" ShowProp="Frequency" Show_id="true" Show_Val="true" Pos="732,548" rotation="0" hflip="1" vflip="1" label="mega328-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program="../Build/TRASHMEASUREMENT.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="SR04" CircId="SR04-3" mainComp="false" Show_id="false" Show_Val="false" Pos="608,500" rotation="0" hflip="1" vflip="1" label="SR04-3" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Hd44780" CircId="Hd44780-4" mainComp="false" Show_id="true" Show_Val="false" Pos="788,492" rotation="0" hflip="1" vflip="1" label="Hd44780-4" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-54" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="452,520" rotation="0" hflip="1" vflip="1" label="Voltage Source-54" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Value_Volt="0.09 V" MaxValue="5 V" />
+
+<item itemtype="Ground" CircId="Ground-57" mainComp="false" Show_id="false" Show_Val="false" Pos="620,692" rotation="0" hflip="1" vflip="1" label="Ground-57" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-74" mainComp="false" Show_id="false" Show_Val="false" Pos="588,608" rotation="-180" hflip="1" vflip="1" label="Led-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-99" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="640,600" rotation="0" hflip="1" vflip="1" label="Resistor-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Node" CircId="Node-79" mainComp="false" Pos="572,644" />
+
+<item itemtype="Connector" uid="connector-80" startpinid="SR04-3-outpin" endpinid="mega328-2-PORTD2" pointList="616,548,616,580,724,580" />
+
+<item itemtype="Connector" uid="connector-81" startpinid="SR04-3-trigpin" endpinid="mega328-2-PORTD0" pointList="608,548,608,564,724,564" />
+
+<item itemtype="Connector" uid="connector-82" startpinid="Hd44780-4-dataPin6" endpinid="mega328-2-PORTB6" pointList="876,500,876,696,676,696,676,620,724,620" />
+
+<item itemtype="Connector" uid="connector-83" startpinid="Hd44780-4-dataPin4" endpinid="mega328-2-PORTB4" pointList="860,500,860,636,772,636" />
+
+<item itemtype="Connector" uid="connector-84" startpinid="Hd44780-4-dataPin3" endpinid="mega328-2-PORTB3" pointList="852,500,852,644,772,644" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="Hd44780-4-dataPin2" endpinid="mega328-2-PORTB2" pointList="844,500,844,652,772,652" />
+
+<item itemtype="Connector" uid="connector-86" startpinid="Hd44780-4-dataPin1" endpinid="mega328-2-PORTB1" pointList="836,500,836,660,772,660" />
+
+<item itemtype="Connector" uid="connector-87" startpinid="Hd44780-4-dataPin0" endpinid="mega328-2-PORTB0" pointList="828,500,828,684,724,684,724,660" />
+
+<item itemtype="Connector" uid="connector-88" startpinid="Hd44780-4-dataPin5" endpinid="mega328-2-PORTB5" pointList="868,500,868,628,772,628" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="Hd44780-4-PinEn" endpinid="mega328-2-PORTC0" pointList="820,500,820,596,772,596" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="Hd44780-4-PinRW" endpinid="mega328-2-PORTC1" pointList="812,500,812,588,772,588" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="Hd44780-4-PinRS" endpinid="mega328-2-PORTC2" pointList="804,500,804,580,772,580" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="Hd44780-4-dataPin7" endpinid="mega328-2-PORTB7" pointList="884,500,884,704,668,704,668,628,724,628" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="Voltage Source-54-outPin" endpinid="SR04-3-inpin" pointList="480,536,480,476,520,476" />
+
+<item itemtype="Connector" uid="connector-94" startpinid="AudioOut-1-lPin" endpinid="mega328-2-PORTD4" pointList="524,652,692,652,692,596,724,596" />
+
+<item itemtype="Connector" uid="connector-95" startpinid="AudioOut-1-rPin" endpinid="Node-79-0" pointList="524,644,572,644" />
+
+<item itemtype="Connector" uid="connector-96" startpinid="Led-74-rPin" endpinid="Node-79-1" pointList="572,608,572,644" />
+
+<item itemtype="Connector" uid="connector-97" startpinid="Node-79-2" endpinid="Ground-57-Gnd" pointList="572,644,620,644,620,676" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="mega328-2-PORTD3" endpinid="Resistor-99-rPin" pointList="724,588,656,588,656,600" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Resistor-99-lPin" endpinid="Led-74-lPin" pointList="624,600,624,608,604,608" />
+
+</circuit>
