@@ -12,15 +12,16 @@
 |5_Report|Overall details of project|
 |6_Output|Output images and Explanation Videos|
 
+
 # BADGES
 
 ## CODACY
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c1abe40b561644a3bbc7ca11d0abaee4)](https://www.codacy.com/gh/herenajoshika/M1_CARRENTANDWASH/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=herenajoshika/M1_CARRENTANDWASH&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8855f03433fb4fb79798d89e11d88e35)](https://www.codacy.com/gh/herenajoshika/M2_WASTELEVELMONITORING/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=herenajoshika/M2_WASTELEVELMONITORING&amp;utm_campaign=Badge_Grade)
 
 ## CODIGA
 
-![Codiga_Badge](https://api.codiga.io/project/32527/score/svg)
+![Codiga_Badge](https://api.codiga.io/project/32910/status/svg)
 
 ## WORKFLOWS
 
