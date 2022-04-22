@@ -6,9 +6,9 @@
    
 -   The project is titled as **WASTE LEVEL MONITORING** and developed using C language.
    
--   Atmega328 is the microcontroller used in this system.
+-   Atmega328p is the microcontroller used in this system.
    
--   Atmega328 is connected with LCD display to show the status of the dustbin and the distance filled,Ultrasonic sensor which helps in finding the distance filled by sending a signal through trigpin and receiving through echo pin and by using the time taken by the echo pin to recieve the signal the distance is calculated,Buzzer and LED is connected which acts as alert signals to indicate when the dustbin is full and the distance is also send through USART which is a communication protocol which could be seen in serial monitor.
+-   Atmega328p is connected with LCD display to show the status of the dustbin and the distance filled,Ultrasonic sensor which helps in finding the distance filled by sending a signal through trigpin and receiving through echo pin and by using the time taken by the echo pin to recieve the signal the distance is calculated,Buzzer and LED is connected which acts as alert signals to indicate when the dustbin is full and the distance is also send through USART which is a communication protocol which could be seen in serial monitor.
    
 -   In my Project the dustbin gives alert signal when the dustbin have distance to fill the wastes is about less than 6cm.
 
@@ -50,7 +50,7 @@ Distance is measured continuously and the data is displayed and sent.
 It can be incorporated in both domestic and public dustbins for indication of trash level.
 
 ## How
-In my Project the dustbin gives alert signal when the dustbin have distance to fill the wastes is about less than 6cm.Atmega328 is the microcontroller used in this system and the language used as a software in this embedded system is C language further the Atmega328 is connected with LCD display to show the status of the dustbin and the distance filled,Ultrasonic sensor which helps in finding the distance filled by sending a signal through trigpin and receiving through echo pin and by using the time taken by the echo pin to recieve the signal the distance is calculated,Buzzer and LED is connected which acts as alert signals to indicate when the dustbin is full and the distance is also send through USART which is a communication protocol which could be seen in serial monitor.
+In my Project the dustbin gives alert signal when the dustbin have distance to fill the wastes is about less than 6cm.Atmega328p is the microcontroller used in this system and the language used as a software in this embedded system is C language further the Atmega328 is connected with LCD display to show the status of the dustbin and the distance filled,Ultrasonic sensor which helps in finding the distance filled by sending a signal through trigpin and receiving through echo pin and by using the time taken by the echo pin to recieve the signal the distance is calculated,Buzzer and LED is connected which acts as alert signals to indicate when the dustbin is full and the distance is also send through USART which is a communication protocol which could be seen in serial monitor.
 
 # Detail Requirements
 
@@ -58,7 +58,7 @@ In my Project the dustbin gives alert signal when the dustbin have distance to f
 | ID | Description | Status |
 |--|--|--|
 | HR1 | Ultrasonic Sensor  | Implemented |
-| HR2 | Atmega328 | Implemented |
+| HR2 | Atmega328p | Implemented |
 | HR3 | LCD Display|  Implemented |
 | HR4 | USART |  Implemented |
 | HR5 | Light Indicator |  Implemented |
