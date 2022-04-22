@@ -4,7 +4,7 @@
 
 # STATE TRANSITION DIAGRAM
 
-![STATETRANSITIONDIA (1)](https://user-images.githubusercontent.com/101052348/164611392-aa8ed31b-cc9c-4062-9138-cb138a13bd4e.png)
+![STATETRANSITIONDIA (1)](https://user-images.githubusercontent.com/101052348/164674472-578d3cb4-e9c0-4b26-8c2c-dcb0d55ff702.png)
 
 # FLOWCHART
 
