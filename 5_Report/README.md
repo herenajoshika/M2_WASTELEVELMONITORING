@@ -164,6 +164,15 @@ Microcontroller(mega328-2) : ATmega328p
 
 # Explanation Video
 
+## OUTPUT VIDEO
+
+https://user-images.githubusercontent.com/101052348/164700631-248a5904-4558-42e8-916a-bc5ac89353df.mp4
+
+## EXPLANATION VIDEO
+
+https://user-images.githubusercontent.com/101052348/164702235-0131d92c-f005-467d-81c1-228439707295.mp4
+
+
 # M2_WASTELEVELMONITORING
 
 ## Module 1 Project
