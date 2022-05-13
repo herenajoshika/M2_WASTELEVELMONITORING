@@ -1,6 +1,6 @@
 # M2_WASTELEVELMONITORING
 
-## Module 1 Project
+## Module 2 Project
 
 |FOLDER|DESCRIPTION|
 | --------------- | --------------- |
